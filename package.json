@@ -14,8 +14,13 @@
   "node-remote": "http://localhost:3000",
   "main": "http://localhost:3000",
   "window": {
-    "frame": false,
-    "toolbar": false
+    "frame": true,
+    "toolbar": true,
+    "width": 600,
+    "height": 55,
+    "resizable": false,
+    "show_in_taskbar": false,
+    "show": false
   },
   "readmeFilename": "README",
   "devDependencies": {

@@ -4,6 +4,11 @@
   "main": "index.html",
   "window": {
     "frame": false,
-    "toolbar": false
+    "toolbar": false,
+    "width": 600,
+    "height": 55,
+    "resizable": false,
+    "show_in_taskbar": false,
+    "show": false
   }
 }

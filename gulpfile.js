@@ -233,7 +233,8 @@ gulp.task('build', ['dist'], function() {
     //appVersion: meta.version,
     buildDir: PACKAGES_DIR,
     macZip: true,
-    cacheDir: TMP_DIR
+    cacheDir: TMP_DIR,
+    version: '0.12.3'
     // TODO: timestamped versions
     // TODO: macIcns
     // TODO: winIco
